@@ -4,8 +4,5 @@ files:
   - source: /home/src/MontekAws-CodeDeploy/index.php
     destination: /var/www/html/
 hooks:
-  BeforeInstall:
-    - location: /home/src/MontekAws-CodeDeploy/service_start
-  AfterInstall:
-    - location: /home/src/MontekAws-CodeDeploy/service_start
-  
+
+    
